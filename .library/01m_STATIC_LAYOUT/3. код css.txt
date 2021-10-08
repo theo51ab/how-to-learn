@@ -1,0 +1,162 @@
+body {
+  font-family: 'Cormorant Garamond';
+}
+
+/*div {
+  border: 1px solid red;
+}*/
+
+.header {
+  height: 95px;
+  display: flex;
+  
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+}
+
+.header-link {
+  margin: auto;
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191E;
+}
+
+.menu {
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: 40px auto 40px;
+}
+
+.menu-link {
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #10191E;
+}
+
+.main {
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-row_frameworks-inner {
+  width: 636px;
+  height: 290px;
+}
+
+.flex-row_reversed {
+  flex-direction: row-reverse;
+  margin: 60px auto 60px;
+}
+
+.flex-column {
+  width: 636px;
+  height: 557px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column_reversed {
+  flex-direction: column-reverse;
+}
+
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+.project_beginner {
+  width: 636px;
+  height: 430px;
+}
+
+.project_music-album {
+  background-image: url('https://code.s3.yandex.net/web-code/album.png');
+}
+
+.project_design-principles {
+  background-image: url('https://code.s3.yandex.net/web-code/design.png');
+}
+
+.project_procrastinate {
+  width: 636px;
+  height: 557px;
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project_p5 {
+  width: 636px;
+  height: 240px;
+}
+
+.project_slider {
+  width: 306px;
+  height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+
+.project_reactive {
+  width: 306px;
+  height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+}
+
+.project_vanilla {
+  width: 306px;
+  height: 290px;
+}
+
+.project_how-to-study {
+  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  order: 3;
+}
+
+.project_across-russia {
+  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  order: 2;
+  flex-basis: 636px;
+}
+
+.project_mesto {
+  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  order: 1;
+}
+
+.footer {
+  display: flex;
+  height: 95px;
+  justify-content: center;
+  
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  width: 145px;
+  height: 25px;
+  background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+}
