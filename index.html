@@ -12,12 +12,15 @@
 </head>
 <body class="page">
 
-    <header class="header"> <!--Из закрепляющего урока БЭМ: на странице теперь целых три заголовка второго уровня и ни одного заголовка первого. Это не по правилам семантики. Сделаем заголовком ссылку в шапке. Оберните ссылку в теги <h1></h1> и назначьте заголовку класс centered-block. Именно заголовок должен быть выровнен по центру, а не ссылка внутри него. Поэтому из ссылки удалите класс centered-block. Семантика рекомендует вкладывать строчные элементы в блочные, а не наоборот. Поэтому h1 - родительский. -->
-      <img class="logo" src="./images/logo_place_header.svg" alt="">
+    <header class="header">
+      <div class="logo logo_place_header"></div>
+      <!--<img class="" src="./images/logo_place_header.svg" alt="">-->
 
-      <img class="header__background_image" src="./images/header-image.png" alt="здесь должно быть фоновое изображение"> <!--есть лого для повтор исп, а есть фон-->
-      <h1 class="header__h1"><a href="#">Научиться учиться</a></h1>
-      <h2></h2>
+            <h1 class="header__title">Научиться учиться</h1>
+      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a></h2>
+      <div class="header__main-illustration"></div>
+      <!--<img class="header__background_image" src="./images/header-image.png" alt="здесь должно быть фоновое изображение">-->
+      <div class="header__square-pic"></div>
     </header>
 
     <main class="content">
@@ -71,7 +74,27 @@
     </main>
 
     <footer class="footer">
-
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <p class="footer__author"></p>
+        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h4 class="footer__column-heading">О Практикуме</h4>
+          <ul class="footer_column-links">
+            <li>
+              <a href="#" class="footer__column-link">Главная</a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">Концепция</a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">Наставники</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__column footer__column_content_social"></div>
+      </div>
     </footer>
 </body>
 </html>
