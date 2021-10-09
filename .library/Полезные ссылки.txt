@@ -10,6 +10,10 @@ https://desktop.github.com/ -- документация https://docs.github.com/
 :::: САЙТЫ ::::
 :::::::::::::::
 
+:::: СПРАВОЧНИКИ
+https://youtu.be/FFBTGdEMrQ4
+  Быстрый ввод в язык разметки Markdown
+
 :::: ДИЗАЙН
 https://colorscheme.ru/color-converter.html
   Конвертер цветов RGB/HEX и др.; +RAL: https://colorscheme.ru/ral-colors/ral-classic.html
