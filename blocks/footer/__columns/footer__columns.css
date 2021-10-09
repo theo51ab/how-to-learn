@@ -1,6 +1,6 @@
 .footer__columns {
   width: 90%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* распределение дочерних __column (по умолчанию горизонтальное) */
+  justify-content: space-between; /* метод распределения свободного пространства */
 }

@@ -1,6 +1,5 @@
 .logo_place_header {
-  /*width: 183px;
-  height: 32px;*/
-  background-image: url(./images/logo_place_header.svg);
-  background-position: center;
+  width: 183px;
+  height: 32px;
+  background-image: url('../../../images/logo.svg');
 }

@@ -2,4 +2,5 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   min-height: 350px;
+  display: flex; /* распределение дочерней __columns при заданных размерах footer */
 }
