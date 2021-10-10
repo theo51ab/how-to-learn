@@ -7,3 +7,8 @@
   display: block; /* делаем ссылку блочной для применения margin */
   margin: 0 0 10px 0;
 }
+
+.footer__column-link:hover {
+  opacity: 0.60;
+  transition: opacity 0.10s linear;
+}

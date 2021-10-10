@@ -26,26 +26,32 @@
     <main class="content">
 
       <section class="description">
-        <div class="examples description__examples flex-row"> <!--Из теории БЭМ > Способы модификации блоков, где examples для повторного использования, description__examples для обхода запрета на margin родителя, а где место flex-row еще уточнить; перечитать еще с просмотром примера - противоречие БЭМ? //// Из закрепляющего урока БЭМ (см. после комментария h2 ниже): Заголовок флекс-строки если блок — уже секция, сделать немного сложне. Но поместив в неё подзаголовок, мы сделаем его флекс-элементом. Придётся делать дополнительную обёртку. Внутри секции создайте div — он станет дочерним для section, но родительским для всего вложенного в секцию контента. Переместите все названия классов, которые сейчас присвоены section в новый div, а из секции эти классы удалите.-->
-          <h2 class="description__header"> <!--Из закрепляющего урока БЭМ следует что если установить заголовки внутри флекс-контейнера, подзаголовки станут флекс-элементом и расположатся в линию. К тому же, размещать заголовки внутри блока списка семантически некорректно. Правильнее создать обёртки тегом section. Именно секциями размечают озаглавленные зоны. Оберните первый и последний блоки flex-row тегами <section></section>, а прямо под открывающими тегами <section> напишите заголовки //// Мы не задавали стилей для заголовков, поэтому их внешний вид определён файлом normalize.css. У заголовков есть отступы, унаследованные от стилей браузера, его размеры нами не описаны. Заголовки лучше стилизовать. Сделайте каждый заголовок второго уровня элементом блока content, назначив класс content__title. После этого пропишите селектору этого класса стили:
+        <div class="two-columns">
+          <h2 class="two-columns__brief">
+            Главные проблемы в обучении
+          </h2>
+          <ul class="two-columns__main-text">
+            <li class="two-columns__paragraph">
+              Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
+            </li>
+            <li class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+            </li>
+            <li class="two-columns__paragraph">
+              Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+         <!--Из теории БЭМ > Способы модификации блоков, где examples для повторного использования, description__examples для обхода запрета на margin родителя, а где место flex-row еще уточнить; перечитать еще с просмотром примера - противоречие БЭМ? //// Из закрепляющего урока БЭМ (см. после комментария h2 ниже): Заголовок флекс-строки если блок — уже секция, сделать немного сложне. Но поместив в неё подзаголовок, мы сделаем его флекс-элементом. Придётся делать дополнительную обёртку. Внутри секции создайте div — он станет дочерним для section, но родительским для всего вложенного в секцию контента. Переместите все названия классов, которые сейчас присвоены section в новый div, а из секции эти классы удалите.-->
+          <!--Из закрепляющего урока БЭМ следует что если установить заголовки внутри флекс-контейнера, подзаголовки станут флекс-элементом и расположатся в линию. К тому же, размещать заголовки внутри блока списка семантически некорректно. Правильнее создать обёртки тегом section. Именно секциями размечают озаглавленные зоны. Оберните первый и последний блоки flex-row тегами <section></section>, а прямо под открывающими тегами <section> напишите заголовки //// Мы не задавали стилей для заголовков, поэтому их внешний вид определён файлом normalize.css. У заголовков есть отступы, унаследованные от стилей браузера, его размеры нами не описаны. Заголовки лучше стилизовать. Сделайте каждый заголовок второго уровня элементом блока content, назначив класс content__title. После этого пропишите селектору этого класса стили:
             font-size: 34px;
             margin: 0 0 40px;
             text-align: center;-->
-           Главные проблемы в обучении
-         </h2>
-          <div>
-            <p class="description__text">
-             Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
-            </p>
-            <p class="description__text">
-              <strong class="description__text_weight_bold">
-               Вывод:
-             </strong>
-              учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
-            </p>
-           <p class="description__text">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
-          </div>
-        </div>
       </section>
 
       <!--<section class="techniques">
@@ -70,8 +76,8 @@
       </section>
 
       <section class="resources">
-      </section>
-    </main>-->
+      </section>-->
+    </main>
 
     <footer class="footer">
       <div class="footer__columns">
@@ -82,13 +88,13 @@
         <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <ul class="footer__column-links">
-            <li>
+            <li class="footer__column-link_li">
               <a href="#" class="footer__column-link">Главная</a>
             </li>
-            <li>
+            <li class="footer__column-link_li">
               <a href="#" class="footer__column-link">Концепция</a>
             </li>
-            <li>
+            <li class="footer__column-link_li">
               <a href="#" class="footer__column-link">Наставники</a>
             </li>
           </ul>
@@ -96,18 +102,18 @@
         <div class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
-            <li>
-              <a href="https://www.facebook.com/yandex.practicum" class="footer__column-link">
+            <li class="footer__column-link_li">
+              <a href="https://www.facebook.com/yandex.practicum" target="_blank" class="footer__column-link">
                 <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook_logo"> Facebook
               </a>
             </li>
-            <li>
-              <a href="https://vk.com/yandex.practicum" class="footer__column-link">
+            <li class="footer__column-link_li">
+              <a href="https://vk.com/yandex.practicum" target="_blank" class="footer__column-link">
                 <img class="footer__social-icon" src="./images/vk_white.svg" alt="VKontakte_logo"> ВКонтакте
               </a>
             </li>
-            <li>
-              <a href="https://www.instagram.com/yndx.practicum" class="footer__column-link">
+            <li class="footer__column-link_li">
+              <a href="https://www.instagram.com/yndx.practicum" target="_blank" class="footer__column-link">
                 <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram_logo"> Instagram
               </a>
             </li>
