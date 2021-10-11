@@ -12,7 +12,7 @@
 /*@import url('..blocks/content/content.css');*/
 
 @import url('../blocks/description/description.css');
-/* стилизацию через внешний блок two-column */
+/* стилизация через типовой блок two-column */
 @import url('../blocks/two-columns/two-columns.css');
   @import url('../blocks/two-columns/__brief/two-columns__brief.css');
   @import url('../blocks/two-columns/__main-text/two-columns__main-text.css');
@@ -20,10 +20,12 @@
       @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
 
 /*@import url('..blocks/techniques/techniques.css');*/
+/* стилизация через типовые блоки section-title, section-subtitle, cards */
+
 /*@import url('..blocks/video/video.css');*/
 
 @import url('../blocks/oakley/oakley.css');
-/* стилизацию через внешний блок two-column */
+/* стилизация через типовой блок two-column */
 
 /*@import url('..blocks/feynman/feynman.css');*/
 /*@import url('..blocks/digits/digits.css');*/
