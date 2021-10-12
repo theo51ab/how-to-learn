@@ -2,4 +2,6 @@
   width: 183px;
   height: 32px;
   background-image: url('../../../images/logo.svg');
+  position: absolute;
+  top: 30px; left: 64px;
 }
