@@ -42,7 +42,15 @@
 /* стилизация через типовой блок two-column */
 
 /*@import url('..blocks/feynman/feynman.css');*/
-/*@import url('..blocks/digits/digits.css');*/
+
+@import url('..blocks/digits/digits.css');
+/* стилизация через типовой блок table */
+
+  @import url('../blocks/table/table.css');
+    @import url('../blocks/table/__cell/table__cell.css');
+      @import url('../blocks/table/__heading/table__heading.css');
+      @import url('../blocks/table/__text/table__text.css');
+
 /*@import url('..blocks/khan/khan.css');*/
 /*@import url('..blocks/kaufman/kaufman.css');*/
 /*@import url('..blocks/resources/resources.css');*/
