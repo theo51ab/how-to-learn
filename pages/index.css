@@ -65,7 +65,11 @@
   @import url('../blocks/kaufman/kaufman_theme_dark.css');
 /* стилизация через типовые блоки section-title, section-subtitle, table */
 
-/*@import url('../blocks/resources/resources.css');*/
+@import url('../blocks/resources/resources.css');
+  @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
+    @import url('../blocks/resources/__logo/resources__logo.css');
+/* стилизация через типовые блоки section-title, section-subtitle */
+
 
 @import url('../blocks/footer/footer.css');
   @import url('../blocks/footer/__columns/footer__columns.css');
