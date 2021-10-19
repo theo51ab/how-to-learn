@@ -61,11 +61,7 @@
 
 * **IDE:** [_Visual Studio Code_](https://code.visualstudio.com/)
 
-* **VCS:** [_Git_](https://git-scm.com/) (*Git Bash*) с хостингом репозитория на [_GitHub.com_](https://github.com/)
-<!--
-Тип | Название | Версия
---- | --- | :---:
-IDE | [Visual Studio Code](https://code.visualstudio.com/) | 1.61
-VCS | [Git](https://git-scm.com/) (*Git Bash*) | 2.33
-Host | [GitHub.com](https://github.com/) | -
--->
+* **VCS:** [_Git_](https://git-scm.com/) (*Git Bash*)
+
+* **GitHub:** [_страница проекта_](https://github.com/theo51ab/how-to-learn)
+
