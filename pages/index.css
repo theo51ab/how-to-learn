@@ -48,7 +48,7 @@
 @import url('../blocks/oakley/oakley.css');
 /* стилизация через типовой блок two-column */
 
-/*@import url('../blocks/feynman/feynman.css');*/
+@import url('../blocks/feynman/feynman.css');
 
 @import url('../blocks/digits/digits.css');
 /* стилизация через типовые блоки section-title, section-subtitle, table */
