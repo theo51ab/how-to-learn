@@ -63,6 +63,7 @@
       @import url('../blocks/table/__text/_theme/table__text_theme_dark.css');
 
 @import url('../blocks/khan/khan.css');
+  @import url('../blocks/khan/__container/khan__container.css');
 
 @import url('../blocks/kaufman/kaufman.css');
   @import url('../blocks/kaufman/kaufman_theme_dark.css');
