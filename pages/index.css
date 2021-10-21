@@ -77,7 +77,6 @@
     @import url('../blocks/resources/__logo/resources__logo.css');
 /* стилизация через типовые блоки section-title, section-subtitle */
 
-
 @import url('../blocks/footer/footer.css');
   @import url('../blocks/footer/__columns/footer__columns.css');
     @import url('../blocks/footer/__column/footer__column.css');
