@@ -3,11 +3,11 @@
 
 @import url('../blocks/page/page.css');
 
-@import url('../blocks/rotate/rotate.css');
+  @import url('../blocks/rotation/rotation.css');
 
-@import url('../blocks/logo/logo.css');
-@import url('../blocks/logo/_place/logo_place_header.css');
-@import url('../blocks/logo/_place/logo_place_footer.css');
+  @import url('../blocks/logo/logo.css');
+  @import url('../blocks/logo/_place/logo_place_header.css');
+  @import url('../blocks/logo/_place/logo_place_footer.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__title/header__title.css');
@@ -16,7 +16,7 @@
 @import url('../blocks/header/__square-pic/header__square-pic.css');
 @import url('../blocks/header/__main-illustration/header__main-illustration.css');
 
-/*@import url('../blocks/content/content.css');*/
+/*@import url('../blocks/content/content.css');*/ /*пустое свойство*/
 
 @import url('../blocks/description/description.css');
 /* стилизация через типовой блок two-column */
@@ -80,7 +80,8 @@
 
 @import url('../blocks/kaufman/kaufman.css');
   @import url('../blocks/kaufman/kaufman_theme_dark.css');
-/* стилизация через типовые блоки section-title, section-subtitle, table */
+  @import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
+/* стилизация через типовые блоки section-title, section-subtitle, table, rotation */
 
 @import url('../blocks/resources/resources.css');
   @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
@@ -91,8 +92,8 @@
   @import url('../blocks/footer/__columns/footer__columns.css');
     @import url('../blocks/footer/__column/footer__column.css');
       @import url('../blocks/footer/__column/_content/footer__column_content_copyright.css');
-      @import url('../blocks/footer/__column/_content/footer__column_content_info.css');
-      @import url('../blocks/footer/__column/_content/footer__column_content_social.css');
+      /*@import url('../blocks/footer/__column/_content/footer__column_content_info.css');*/ /*пустое свойство*/
+      /*@import url('../blocks/footer/__column/_content/footer__column_content_social.css');*/ /*пустое свойство*/
         @import url('../blocks/footer/__author/footer__author.css');
         @import url('../blocks/footer/__column-heading/footer__column-heading.css');
         @import url('../blocks/footer/__column-links/footer__column-links.css');
