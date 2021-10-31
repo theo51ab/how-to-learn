@@ -1,5 +1,6 @@
 .video__iframes {
   margin: 50px auto -50px;
+  /*заступ на соседнюю секцию в брифе не прописан, принял -50px на глаз*/
   display: flex;
   justify-content: center;
 }
