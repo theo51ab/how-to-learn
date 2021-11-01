@@ -6,9 +6,10 @@
   text-decoration: none; /* отключаем подчеркивание, по умолчанию установленное для ссылок */
   display: block; /* делаем ссылку блочной для применения margin */
   margin: 0 0 10px 0;
+  opacity: 1;
+  transition: opacity 0.10s linear;
 }
 
 .footer__column-link:hover {
   opacity: 0.60;
-  transition: opacity 0.10s linear;
 }
