@@ -5,4 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 1;
+  transition: opacity .1s linear;
+}
+
+.resources__logo:hover {
+  opacity: .4;
 }
